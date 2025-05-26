@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-border: hsl(214.3 31.8% 91.4%);
+  --color-background: hsl(0 0% 100%);
+  --color-foreground: hsl(222.2 84% 4.9%);
+}
+
+/* Your custom animations */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes bounceGentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@utilities {
+  .animate-fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  .animate-slide-in {
+    animation: slideIn 0.5s ease-out;
+  }
+  .animate-bounce-gentle {
+    animation: bounceGentle 2s infinite;
+  }
+}
