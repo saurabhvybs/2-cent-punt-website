@@ -1,5 +1,6 @@
 import { Bell, Target, BarChart3 } from 'lucide-react';
-import { Service } from '@/types';
+import React from 'react';
+import { Service } from '../types';
 
 export const services: Service[] = [
   {

@@ -4,7 +4,7 @@ export const testimonials: Testimonial[] = [
   {
     name: "Sarah Chen",
     company: "TechFlow Startup",
-    image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=64&h=64&fit=crop&crop=face",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=64&h=64&fit=crop&crop=face",
     text: "2 Cent & Punt transformed our customer engagement. Their notification service increased our user retention by 340%!",
     rating: 5
   },
