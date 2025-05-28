@@ -29,7 +29,7 @@ const Footer = () => {
     <footer
       className={`py-12 px-4 sm:px-6 lg:px-8 ${
         theme === 'dark'
-          ? 'bg-gray-900 border-t border-gray-800'
+          ? 'bg-black border-t border-gray-800'
           : 'bg-white border-t border-gray-200'
       }`}
     >

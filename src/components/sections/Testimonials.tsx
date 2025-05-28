@@ -47,10 +47,10 @@ const Testimonials = () => {
 
         <div className="relative">
           <div
-            className={`p-8 rounded-2xl ${
+            className={`p-8 rounded-2xl border ${
               theme === "dark"
-                ? "bg-gray-800 border border-gray-700"
-                : "bg-white border border-gray-200"
+                ? "bg-black border-gray-700"
+                : "bg-white border-gray-200"
             } shadow-xl max-w-4xl mx-auto`}
           >
             <div className="flex items-center mb-6">

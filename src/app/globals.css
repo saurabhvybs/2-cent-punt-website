@@ -3,6 +3,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
+section {
+  @apply bg-background;
+}
+
 @theme {
   --color-border: hsl(214.3 31.8% 91.4%);
   --color-background: hsl(0 0% 100%);

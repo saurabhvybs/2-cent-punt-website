@@ -21,7 +21,7 @@ const Navigation = () => {
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
         theme === 'dark'
-          ? 'bg-gray-900/95 backdrop-blur-sm border-gray-800'
+          ? 'bg-black backdrop-blur-sm border-gray-800'
           : 'bg-white/95 backdrop-blur-sm border-gray-200'
       } border-b`}
     >

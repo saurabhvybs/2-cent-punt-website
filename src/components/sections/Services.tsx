@@ -34,11 +34,11 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className={`p-8 rounded-2xl ${
+              className={`p-8 rounded-2xl border ${
                 theme === 'dark'
-                  ? 'bg-gray-900 border border-gray-700'
-                  : 'bg-white border border-gray-200'
-              } hover:shadow-2xl transform hover:scale-105 transition-all duration-300`}
+                  ? 'bg-black border-gray-700'
+                  : 'bg-white border-gray-200'
+              } hover:shadow-2xl transform hover:scale-[1.02] transition-all duration-300`}
             >
               <div className="text-purple-600 mb-4">{service.icon}</div>
               <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
